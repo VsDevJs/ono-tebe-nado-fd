@@ -131,16 +131,10 @@
 }
 
 .letter-spacing-extended {
-
-    /* Для контроля letter spacing , где это требуется */
-
     word-spacing:16px; 
 }
 
 .no-letter-spacing { 
-    
-    /* Для обнуления последней буквы */
-
     letter-spacing: 0px;
 }
 
@@ -221,7 +215,6 @@
     font-size: 22px;
     font-style: normal;
     line-height: 1.2;
-    /* or 26px */
     text-decoration-line:underline;
     text-underline-offset:3px;
     text-transform: uppercase;
@@ -248,8 +241,6 @@
     line-height: 23px;
     text-decoration: none;
 }
-
-/* main Секция 1-один */
 
 .about {
     display: grid;
@@ -303,8 +294,6 @@
     margin-top: 100px;
     margin-bottom:24px;
 }
-
-/* Footer */
 
 .footer {
     display: grid;
