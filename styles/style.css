@@ -35,8 +35,6 @@
     padding-left:2px;
 }
 
-/* Header */
-
 .header { 
     display:grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -83,8 +81,6 @@
     width:148px;
     padding:1px 6px;
 }
-
-/* Main  section 1 */
 
 .cover {
     position: relative;
@@ -157,8 +153,6 @@
     text-transform: uppercase;
     background-color: transparent;
 }
-
-/*    Main  секция  cards   */
 
 .lots {
     padding:180px 24px 0px;
