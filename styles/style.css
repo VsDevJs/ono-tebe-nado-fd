@@ -57,7 +57,7 @@
 .menu__item {
     position: relative;
     border-bottom:1px solid black;
-    font-family: 'Raleway';
+    font-family: Raleway, Roboto, sans-serif;
     list-style: circle;
 }
 
@@ -144,7 +144,7 @@
 
 .bet-button {
     width:256px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid currentColor;
     padding:12px 32px 11px 31px;
     color: #FFFFFF;
     font-size: 22px;
@@ -170,6 +170,7 @@
 
 .lots__card-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap:25px;
 }
@@ -193,18 +194,28 @@
     padding:48px 40px;
 }
 
-.card_type_film, .card_type_book, .card_type_picture {
-    position: absolute;
-    top:0px;
-    left:0px;
-    z-index: -2;
-    height: 100%;
-    object-fit: cover;
+/* Background для секции lot lots (для card) */
+.card_type_film {
+    background-image:url(../images/card-lot-01.jpg);
+    background-position:center top;
+    background-size:165% 100%;
+}
+
+.card_type_book {
+    background-image:url(../images/card-lot-02.jpg);
+    background-position:center top;
+    background-size:165% 100%;
+}
+
+.card_type_picture {
+    background-image:url(../images/card-lot-03.jpg);
+    background-position:center top;
+    background-size:165% 100%;
 }
 
 .card__title {
     color: #FFFFFF;
-    font-family: 'Raleway';
+    font-family: Raleway, Roboto, sans-serif;
     font-weight: 700;
     font-size: 22px;
     font-style: normal;
@@ -216,7 +227,7 @@
 
 .card__text {
     color: #FFFFFF;
-    font-family: 'Raleway';
+    font-family: Raleway, Roboto, sans-serif;
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
@@ -228,7 +239,7 @@
     margin:31px 0 0 40px;
     border-bottom:1px solid black;
     color: #000000;
-    font-family: 'Raleway';
+    font-family: Raleway, Roboto, sans-serif;
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
@@ -265,7 +276,7 @@
 .about__title {
     padding-top:136px;
     color: #000000;
-    font-family: 'Raleway';
+    font-family: Raleway, Roboto, sans-serif;
     font-weight: 700;
     font-size: 40px;
     font-style: normal;
@@ -275,7 +286,7 @@
 
 .about__text {
     color: #000000;
-    font-family: 'Raleway';
+    font-family: Raleway, Roboto, sans-serif;
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
@@ -294,18 +305,19 @@
     grid-template-columns: repeat(3,1fr);
     justify-items:center;
     margin-top:182px;
+    padding-bottom:80px;
 }
 
 .footer__adress_left {
     justify-self: start;
-    width:245px;
+    width:249px;
     margin-left:47px;
 }
 
 .footer__menu {
     color: #000000;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.166;
     text-align: center;
 }
 
