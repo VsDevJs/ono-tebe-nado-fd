@@ -95,6 +95,9 @@
 }
 
 .cover__title {
+    display: block;
+    flex-direction: column;
+    gap:22px;
     padding-top:165px;
     font-size:100px;
 }
@@ -105,13 +108,13 @@
     font-weight: 700;
     font-size: 100px;
     line-height: 1.13;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.3em; 
     text-align: left;
     text-transform: uppercase;
 }
 
 .aligned-text_center {
-    padding-left:29px;
+    padding-left:22px;
     line-height: 158px;
     text-align: center;
 }
@@ -119,6 +122,10 @@
 .aligned-text_right {
     margin-right:-29px;
     text-align: right;
+}
+
+.align-text__letter{ 
+    letter-spacing: 1px;
 }
 
 .cover__description {
@@ -154,6 +161,7 @@
     text-align: center;
     text-transform: uppercase;
     background-color: transparent;
+
 }
 
 /* main section lots */
